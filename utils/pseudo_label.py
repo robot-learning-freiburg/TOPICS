@@ -20,7 +20,7 @@ class ComputePseudoLabel:
     "Adopted from: https://github.com/arthurdouillard/CVPR2021_PLOP"
     def __init__(self, pseudo_type, masking_value, tot_classes, threshold, device=None, thresholds=None,
                  max_entropy=None, 
-                 pseudo_soft=None, compute_classif_adaptive_factor=False,
+                 compute_classif_adaptive_factor=False,
                  internal_masking_value=255, hyp_hier=False, hier_matrices=None):
         self.type = pseudo_type
         self.masking_value = masking_value
@@ -28,7 +28,6 @@ class ComputePseudoLabel:
         self.device = device
         self.thresholds = thresholds
         self.max_entropy = max_entropy
-        self.pseudo_soft = pseudo_soft
         self.compute_classif_adaptive_factor = compute_classif_adaptive_factor
         self.tot_classes = tot_classes
         self.threshold = threshold
@@ -78,16 +77,12 @@ class ComputePseudoLabel:
 
             mask_valid_pseudo = (compute_entropy(probs) / self.max_entropy) < self.thresholds[pseudo_labels]
 
-            if self.pseudo_soft is None:
-                # All old labels that are NOT confident enough to be used as pseudo labels:
-                if self.type == "entropybkg":  # bkg = 0 if not confident rather than ignored.
-                    mask_valid_pseudo[pseudo_labels == self.internal_masking_value] = True
-                labels[~mask_valid_pseudo & masked_area] = self.masking_value
-                # All old labels that are confident enough to be used as pseudo labels:
-                labels[mask_valid_pseudo & masked_area] = pseudo_labels[mask_valid_pseudo & masked_area]
-                
-            elif self.pseudo_soft == "soft_uncertain" or self.pseudo_soft == "soft_certain":
-                labels[mask_valid_pseudo & masked_area] = pseudo_labels[mask_valid_pseudo & masked_area]
+            # All old labels that are NOT confident enough to be used as pseudo labels:
+            if self.type == "entropybkg":  # bkg = 0 if not confident rather than ignored.
+                mask_valid_pseudo[pseudo_labels == self.internal_masking_value] = True
+            labels[~mask_valid_pseudo & masked_area] = self.masking_value
+            # All old labels that are confident enough to be used as pseudo labels:
+            labels[mask_valid_pseudo & masked_area] = pseudo_labels[mask_valid_pseudo & masked_area]
 
             if self.compute_classif_adaptive_factor:
                 # Number of old/bg pixels that are certain

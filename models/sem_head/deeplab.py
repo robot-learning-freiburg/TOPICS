@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as functional
-from .norm import Norm
+from inplace_abn import ABN
 
 
 class DeeplabV3(nn.Module):
@@ -44,11 +44,9 @@ class DeeplabV3(nn.Module):
         if last_relu:
             self.red_bn = norm_act(out_channels)
 
-        if not isinstance(self.map_bn, Norm):
-            from inplace_abn import ABN
-            if isinstance(self.map_bn, ABN):
-                print("reset norm!")
-                self.reset_parameters(self.map_bn.activation, self.map_bn.activation_param)
+        if isinstance(self.map_bn, ABN):
+            print("reset norm!")
+            self.reset_parameters(self.map_bn.activation, self.map_bn.activation_param)
 
     def reset_parameters(self, activation, slope):
         gain = nn.init.calculate_gain(activation, slope)

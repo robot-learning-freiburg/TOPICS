@@ -49,7 +49,7 @@ class Label2Color:
 
 
 class PredictionVis:
-    def __init__(self, logger, dataset, task, type, opts):
+    def __init__(self, logger, dataset, task, opts):
         self.logger = logger
         self.label2color = Label2Color(dataset, task)  # convert labels to images
         self.denorm = Denormalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
@@ -69,7 +69,7 @@ class PredictionVis:
             os.makedirs(f"{self.logdir_full}/vis/{self.dataset}_gt")
             os.makedirs(f"{self.logdir_full}/vis/{self.dataset}_img")
 
-    def __call__(self, images, labels, pseudo_label, prediction, outputs, i, file_names=None):
+    def __call__(self, images, labels, pseudo_label, prediction, i, file_names=None):
 
         if self.save_pred is not None:
             for j in range(images.shape[0]):

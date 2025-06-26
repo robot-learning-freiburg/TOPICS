@@ -1,7 +1,7 @@
 import torch
 
 
-def save_ckpt(path, model, scaler, optimizer, scheduler, regularizer, epoch):
+def save_ckpt(path, model, scaler, optimizer, scheduler, epoch):
     """ save current model
     """
     state = {
@@ -12,6 +12,4 @@ def save_ckpt(path, model, scaler, optimizer, scheduler, regularizer, epoch):
     }
     if scaler:
         state["grad_scaler"] = scaler.state_dict()
-    if regularizer:
-        state["regularizer"] = regularizer.state_dict()
     torch.save(state, path)

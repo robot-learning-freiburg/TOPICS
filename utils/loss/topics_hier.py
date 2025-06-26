@@ -57,7 +57,7 @@ class HIERALoss(nn.Module):
     def update_param(self, epoch, iter, max_iter):
         self.step = (epoch * max_iter) + iter
 
-    def __call__(self, logits, labels, old_model=False, feats=None, step=0):
+    def __call__(self, logits, labels, feats=None):
         """ Categorical cross-entropy loss.
         Suppports both flat and hierarchical classification.
         Calculated as -mean(sum(log(p_correct)))
