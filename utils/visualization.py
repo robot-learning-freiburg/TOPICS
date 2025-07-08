@@ -86,7 +86,7 @@ class PredictionVis:
                 lbl = self.label2color(prediction[j]).astype(np.uint8)
                 cv2.imwrite(f"{self.logdir_full}/vis/{self.dataset}_pred/{file_name}", prediction[j].astype(np.uint8))
                 cv2.imwrite(f"{self.logdir_full}/vis/{self.dataset}_pred_rgb/{file_name}", lbl[..., ::-1])
-            return None, None
+            return None
         else:
             j = 0
             img = (self.denorm(images[j].detach().cpu().numpy()) * 255).astype(np.uint8)

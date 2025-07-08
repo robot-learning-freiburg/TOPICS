@@ -19,13 +19,6 @@ class DistanceSim(nn.Module):
         labels = labels.squeeze(1).long()
         assert labels.shape[-1] == features.shape[-1], '{} {}'.format(labels.shape, features.shape)
 
-        if isinstance(self.all_sim, (int, float)):
-            print("check me, I changed to string")
-            if self.all_sim:
-                self.all_sim = "l1"
-            else:
-                self.all_sim = "fr"
-
         mask = (labels < self.old_classes) & (labels != self.internal_masking_value) & (labels != self.masking_value)
         if self.all_sim == "dist0":
             dist0_old = manifold.dist0(features_old, dim=1)

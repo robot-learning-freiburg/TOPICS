@@ -3,7 +3,7 @@ import torch.nn.functional as F
 import torch
 import math
 
-from .loss import DiceCrossEntropyLoss
+from .dice import DiceCrossEntropyLoss
 
 class HIERALoss(nn.Module):
 
@@ -27,11 +27,6 @@ class HIERALoss(nn.Module):
             # mark non-leave nodes as child
             if i < self.helper_tree_child.shape[1]:
                 self.helper_tree_child[i, i] = 0
-        # mark parent nodes
-        self.helper_tree_parent = torch.zeros(self.hier_tree.shape[1], self.hier_tree.shape[1]).double().to(device)
-        for lvl in adj_dict:
-            for i in lvl.keys():
-                self.helper_tree_parent[i, i] = 1
 
         if len(hier_matrices) > 3:
             self.sibling_tree_old = hier_matrices[3].double().to(device)

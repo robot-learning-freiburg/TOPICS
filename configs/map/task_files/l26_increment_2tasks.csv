@@ -1,0 +1,148 @@
+,class,gt_id,start,end
+0,root--void,"{118, 119, 120, 121, 122, 123}",1,112
+1,root--nature,{},1,112
+2,root--object,{},1,112
+3,root--object--static,{},1,112
+4,root--object--static--flat,{},1,112
+5,root--object--static--vertical,{},1,112
+6,root--object--static--vertical--metal,{},1,112
+7,root--object--static--vertical--flored,{},1,112
+8,root--human,{},1,112
+9,root--construction,{},1,112
+10,root--animal,{},1,112
+11,root--marking,{},1,112
+12,root--marking-only,{},1,112
+13,root--marking-only--dashed,{55},1,112
+14,root--nature--mountain,{59},1,112
+15,root--nature--sand,{60},1,112
+16,root--nature--sky,{61},1,112
+17,root--nature--snow,{62},1,112
+18,root--nature--terrain,{63},1,112
+19,root--nature--vegetation,{64},1,112
+20,root--nature--water,{65},1,112
+21,root--object--static--vertical--banner,{66},1,112
+22,root--object--static--vertical--flored--bench,{67},1,112
+23,root--object--static--vertical--flored--bike-rack,{68},1,112
+24,root--object--static--flat--catch-basin,{69},1,112
+25,root--object--static--vertical--cctv-camera,{70},1,112
+26,root--object--static--vertical--fire-hydrant,{71},1,112
+27,root--object--static--vertical--flored--junction-box,{72},1,112
+28,root--object--static--vertical--mailbox,{73},1,112
+29,root--object--static--flat--manhole,{74},1,112
+30,root--object--static--vertical--flored--parking-meter,{75},1,112
+31,root--object--static--vertical--flored--phone-booth,{76},1,112
+32,root--human--person,"{30, 31}",1,112
+33,root--animal--bird,{0},1,112
+34,root--animal--ground-animal,{1},1,112
+35,root--object--static--vertical--street-light,{84},1,112
+36,root--object--static--vertical--traffic-cone,{89},1,112
+37,root--object--static--vertical--water-valve,{117},1,112
+38,root--object--static--vertical--trash-can,{104},1,112
+39,root--object--static--flat--pothole,{77},1,112
+40,root--human--rider,"{32, 33, 34}",1,2
+41,root--marking-only--discrete,"{56, 57, 58}",1,2
+42,root--marking--continuous,"{35, 36, 37}",1,2
+43,root--marking--discrete,"{38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54}",1,2
+44,root--construction--barrier,"{2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}",1,2
+45,root--construction--flat,"{13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25}",1,2
+46,root--construction--structure,"{26, 27, 28, 29}",1,2
+47,root--object--static--vertical--sign,"{78, 79, 80, 81, 82, 83}",1,2
+48,root--object--static--vertical--support,"{88, 85, 86, 87}",1,2
+49,root--object--vehicle,"{105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116}",1,2
+50,root--object--static--vertical--traffic-sign,"{96, 97, 98, 99, 100, 101, 102, 103}",1,2
+51,root--object--static--vertical--traffic-light,"{90, 91, 92, 93, 94, 95}",1,2
+52,root--human--rider--bicyclist,{32},2,112
+53,root--human--rider--motorcyclist,{33},2,112
+54,root--human--rider--other-rider,{34},2,112
+55,root--object--static--vertical--support--pole,{85},2,112
+56,root--object--static--vertical--support--traffic-sign-frame,{87},2,112
+57,root--object--static--vertical--support--utility-pole,{88},2,112
+58,root--marking--discrete--hatched,{},2,112
+59,root--marking--discrete--symbol,{},2,112
+60,root--marking--discrete--arrow,{},2,112
+61,root--marking--discrete--arrow--left,{39},2,112
+62,root--marking--discrete--arrow--other,{40},2,112
+63,root--marking--discrete--arrow--right,{41},2,112
+64,root--marking--discrete--arrow--split-left-or-straight,{42},2,112
+65,root--marking--discrete--arrow--split-right-or-straight,{43},2,112
+66,root--marking--discrete--arrow--straight,{44},2,112
+67,root--marking--discrete--crosswalk-zebra,{45},2,112
+68,root--marking--discrete--give-way-row,{46},2,112
+69,root--marking--discrete--give-way-single,{47},2,112
+70,root--marking--discrete--hatched--chevron,{48},2,112
+71,root--marking--discrete--hatched--diagonal,{49},2,112
+72,root--marking--discrete--other-marking,{50},2,112
+73,root--marking--discrete--stop-line,{51},2,112
+74,root--marking--discrete--symbol--bicycle,{52},2,112
+75,root--marking--discrete--symbol--other,{53},2,112
+76,root--marking--discrete--text,{54},2,112
+77,root--construction--barrier--vertical,{},2,112
+78,root--construction--barrier--flat,{},2,112
+79,root--construction--barrier--vertical--concrete-block,{3},2,112
+80,root--construction--barrier--flat--curb,{4},2,112
+81,root--construction--barrier--vertical--fence,{5},2,112
+82,root--construction--barrier--vertical--guard-rail,{6},2,112
+83,root--construction--barrier--vertical--other-barrier,{7},2,112
+84,root--construction--barrier--flat--road-median,{8},2,112
+85,root--construction--barrier--flat--road-side,{9},2,112
+86,root--construction--barrier--vertical--separator,{10},2,112
+87,root--construction--barrier--vertical--temporary,{11},2,112
+88,root--construction--barrier--vertical--wall,{12},2,112
+89,root--construction--flat--drivable,{},2,112
+90,root--construction--flat--pedestrian,{},2,112
+91,root--construction--flat--pedestrian--bike-lane,{13},2,112
+92,root--construction--flat--pedestrian--crosswalk-plain,{14},2,112
+93,root--construction--flat--pedestrian--curb-cut,{15},2,112
+94,root--construction--flat--drivable--driveway,{16},2,112
+95,root--construction--flat--drivable--parking,{17},2,112
+96,root--construction--flat--drivable--parking-aisle,{18},2,112
+97,root--construction--flat--pedestrian--pedestrian-area,{19},2,112
+98,root--construction--flat--rail-track,{20},2,112
+99,root--construction--flat--drivable--road,{21},2,112
+100,root--construction--flat--drivable--road-shoulder,{22},2,112
+101,root--construction--flat--service-lane,{23},2,112
+102,root--construction--flat--pedestrian--sidewalk,{24},2,112
+103,root--construction--flat--pedestrian--traffic-island,{25},2,112
+104,root--marking-only--discrete--crosswalk-zebra,{56},2,112
+105,root--marking-only--discrete--other-marking,{57},2,112
+106,root--marking-only--discrete--text,{58},2,112
+107,root--construction--structure--bridge,{26},2,112
+108,root--construction--structure--building,{27},2,112
+109,root--construction--structure--garage,{28},2,112
+110,root--construction--structure--tunnel,{29},2,112
+111,root--object--static--vertical--sign--advertisement,{78},2,112
+112,root--object--static--vertical--sign--back,{80},2,112
+113,root--object--static--vertical--sign--information,{81},2,112
+114,root--object--static--vertical--sign--other,{82},2,112
+115,root--object--static--vertical--sign--store,{83},2,112
+116,root--object--static--vertical--traffic-light--cyclists,{94},2,112
+117,root--object--static--vertical--traffic-light--general,{},2,112
+118,root--object--static--vertical--traffic-light--general--horizontal,{93},2,112
+119,root--object--static--vertical--traffic-light--general--single,{90},2,112
+120,root--object--static--vertical--traffic-light--general--upright,{92},2,112
+121,root--object--static--vertical--traffic-light--other,{95},2,112
+122,root--object--static--vertical--traffic-light--pedestrians,{91},2,112
+123,root--object--static--vertical--traffic-sign--back,{97},2,112
+124,root--object--static--vertical--traffic-sign--direction-back,{98},2,112
+125,root--object--static--vertical--traffic-sign--direction-front,{99},2,112
+126,root--object--static--vertical--traffic-sign--front,{100},2,112
+127,root--object--static--vertical--traffic-sign--information-parking,{101},2,112
+128,root--object--static--vertical--traffic-sign--temporary,{},2,112
+129,root--object--static--vertical--traffic-sign--temporary--back,{102},2,112
+130,root--object--static--vertical--traffic-sign--temporary--front,{103},2,112
+131,root--object--vehicle--2wheels,{},2,112
+132,root--object--vehicle--long,{},2,112
+133,root--object--vehicle--2wheels--bicycle,{105},2,112
+134,root--object--vehicle--boat,{106},2,112
+135,root--object--vehicle--long--bus,{107},2,112
+136,root--object--vehicle--car,{108},2,112
+137,root--object--vehicle--long--caravan,{109},2,112
+138,root--object--vehicle--2wheels--motorcycle,{110},2,112
+139,root--object--vehicle--on-rails,{111},2,112
+140,root--object--vehicle--other-vehicle,{112},2,112
+141,root--object--vehicle--long--trailer,{113},2,112
+142,root--object--vehicle--long--truck,{114},2,112
+143,root--object--vehicle--wheeled-slow,{116},2,112
+144,root--marking--continuous--dashed,{35},2,112
+145,root--marking--continuous--solid,{36},2,112
+146,root--marking--continuous--zigzag,{37},2,112

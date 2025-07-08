@@ -13,6 +13,7 @@ TOPICS leverages the class taxonomy and implicit relations between prior classes
 ## System Requirement and Installation
 - Linux (Tested on Ubuntu 20.04)
 - Python3 (Tested using Python 3.8)
+- Pytorch (Tested using 2.1.0+cu118)
 - Install all other python dependencies using [install.sh](./install.sh).
 
 ## Code execution
@@ -22,7 +23,11 @@ TOPICS leverages the class taxonomy and implicit relations between prior classes
 Download the original [Cityscapes](https://www.cityscapes-dataset.com) and [Mapillary Vistas datasets](https://www.mapillary.com/dataset/vistas).
 
 ### Training 
-Run scripts are found in [scripts](./scripts). Run-scripts containing l2 and l24 refer to baselines whereas model code for TOPICS is executed with l6 and l26 scripts. The run_script name corresponds to the [configs](./configs) file which is executed. 
+Download the ImageNet pretrained model from: [link](https://github.com/mapillary/inplace_abn#training-on-imagenet-1k) and save in pretrained/
+All Training scripts are provided in [scripts](./scripts). Training scripts with sub-string l2 and l24 refer to baselines whereas model code for TOPICS is executed with l6 and l26 scripts. The training script name corresponds to the [configs](./configs) file. 
+
+
+When creating new CISS settings, first create a new .csv file in [configs](./configs). Then set "_root" according to your filesystem in [utils/create_filter_file.py](./utils/create_filter_file.py) and execute this file to create the corresponding .npy file for your new setting. 
 
 
 ## License

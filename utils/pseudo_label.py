@@ -39,16 +39,11 @@ class ComputePseudoLabel:
                 if i < self.helper_tree.shape[1]:
                     self.helper_tree[i, i] = 0
 
-    def __call__(self, labels, outputs_old, val=True):
+    def __call__(self, labels, outputs_old):
         masked_area = labels == self.internal_masking_value
         classif_adaptive_factor = 1.0
         mask_valid_pseudo = None
         sample_weights = None
-        if not val:
-            valid_class = [x for x in torch.unique(labels) if (x != self.internal_masking_value and x != self.masking_value)]
-            if len(valid_class) > 0:
-                labels[masked_area] = self.masking_value
-                return labels, classif_adaptive_factor, mask_valid_pseudo, sample_weights
         if self.type == "naive":
             labels[masked_area] = outputs_old.argmax(dim=1)[masked_area]
         elif self.type.startswith("threshold_"):
@@ -68,11 +63,7 @@ class ComputePseudoLabel:
             pseudo_labels[max_probs < self.thresholds[pseudo_labels]] = self.masking_value
             labels[masked_area] = pseudo_labels[masked_area]
         elif (self.type == "entropy") or (self.type == "entropybkg"):
-            if self.hyp_hier:
-                probs = torch.clamp(outputs_old, min=1e-15)
-            else:
-                probs = torch.softmax(outputs_old, dim=1)
-
+            probs = torch.softmax(outputs_old, dim=1)
             max_probs, pseudo_labels = probs.max(dim=1)
 
             mask_valid_pseudo = (compute_entropy(probs) / self.max_entropy) < self.thresholds[pseudo_labels]
@@ -107,6 +98,7 @@ class ComputePseudoLabel:
                 idx == 0] = self.masking_value  # set background (non-target class), if no other class is set to true
             labels[masked_area] = pseudo_labels[masked_area]
         elif self.type.startswith("hiersigmoid_"):
+            C = pred_prob.shape[1]
             pred_prob = torch.sigmoid(outputs_old).detach()
             begin_threshold = float(self.type.split("_")[1]) * 0.1
             if begin_threshold > 1:
@@ -150,7 +142,6 @@ class ComputePseudoLabel:
     
     
     def find_median(self, train_loader, logger, model_old):
-    
         """Find the median prediction score per class with the old model.
 
             Computing the median naively uses a lot of memory, to allievate it, instead

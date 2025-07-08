@@ -58,7 +58,6 @@ class IncrementalHyperbolicSegmentationModule(nn.Module):
             curv_init: float = 2.0,
             clipping: bool = False,
             head: object = None,
-            adj_dict: object = None,
     ):
 
         super(IncrementalHyperbolicSegmentationModule, self).__init__()
@@ -73,25 +72,9 @@ class IncrementalHyperbolicSegmentationModule(nn.Module):
         self.normal = []
         self.norm_act = norm_act
 
-        self._curv_minmax = {
-            "max": curv_init * 10,
-            "min": curv_init / 10,
-        }
         if not self.clipping:
             self.visual_alpha = nn.Parameter(torch.tensor(embed_dim ** -0.5).log())
         self.logit_scale = nn.Parameter(torch.tensor(1 / 0.07).log())
-
-        if adj_dict:
-            self.adj_dict = adj_dict
-            hier_values = len(reduce(lambda xs, ys: xs + ys, list(self.adj_dict.values()))) if len(
-                self.adj_dict) > 0 else 0
-            tot_classes = len(reduce(lambda a, b: a + b, classes))
-            no_hier = tot_classes - hier_values
-            self.class_translate = torch.tensor(list(range(tot_classes)))
-            for key, values in self.adj_dict.items():
-                for value in values:
-                    self.class_translate[value] = key
-            print(self.class_translate)
 
         self.manifold = geoopt.PoincareBall(c=curv_init, learnable=False)
         for i, c in enumerate(classes):
@@ -117,8 +100,6 @@ class IncrementalHyperbolicSegmentationModule(nn.Module):
             self.proj = False
             logger.info("No input proj, head channels = embed dim!")
 
-        self.delta = 0.
-        self.counter = 0
 
     @property
     def curv_pointer(self):

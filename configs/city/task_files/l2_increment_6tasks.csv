@@ -1,0 +1,22 @@
+,class,gt_id,start,end
+0,void,{0},1,20
+1,flat--road,{7},1,20
+2,flat--sidewalk,{8},1,20
+3,construction--building,{11},1,20
+4,construction--wall,{12},1,20
+5,construction--fence,{13},1,20
+6,object--pole,{17},1,20
+7,object--traffic-light,{19},1,20
+8,object--traffic-sign,{20},1,20
+9,nature--vegetation,{21},1,20
+10,nature--terrain,{22},1,20
+11,sky--sky,{23},1,20
+12,human--person,{24},1,20
+13,human--rider,{25},1,20
+14,vehicle--car,{26},1,20
+15,vehicle--truck,{27},2,20
+16,vehicle--bus,{28},3,20
+17,vehicle--train,{31},4,20
+18,vehicle--motorcycle,{32},5,20
+19,vehicle--bicycle,{33},6,20
+255,ignore,"{-1, 1, 2, 3, 4, 5, 6, 9, 10, 14, 15, 16, 18, 29, 30}",0,20

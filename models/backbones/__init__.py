@@ -1,2 +1,2 @@
-from .resnet_baselines import ResNet
+from .resnet import ResNet
 
