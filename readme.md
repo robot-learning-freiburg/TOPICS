@@ -1,7 +1,7 @@
 # Taxonomy-Aware Continual Semantic Segmentation in Hyperbolic Spaces for Open-World Perception
 
 This repository contains the PyTorch implementation of the TOPICS model proposed in our RA-L 2025 paper [Taxonomy-Aware Continual Semantic Segmentation in Hyperbolic Spaces for Open-World Perception](https://ieeexplore.ieee.org/document/10816009) and TOPICS+ [
-Dynamic Robot-Assisted Surgery with Hierarchical Class-Incremental Semantic Segmentation](https://arxiv.org/abs/2508.01713), an extension to robotic surgery environments.
+Dynamic Robot-Assisted Surgery with Hierarchical Class-Incremental Semantic Segmentation](https://arxiv.org/abs/2508.01713), an extension for robotic surgery environments.
 
 
 ## Methodology
@@ -22,7 +22,7 @@ TOPICS+ introduces hierarchical pseudo-labeling and integrates the Dice loss in 
 
 ### Data Format
 
-Download the original [Cityscapes](https://www.cityscapes-dataset.com), [Mapillary Vistas datasets](https://www.mapillary.com/dataset/vistas), [MM-OR] (https://github.com/egeozsoy/MM-OR), [Syn-Mediverse](https://syn-mediverse.cs.uni-freiburg.de/) or Endovis18.
+Download the original [Cityscapes](https://www.cityscapes-dataset.com), [Mapillary Vistas datasets](https://www.mapillary.com/dataset/vistas), [MM-OR](https://github.com/egeozsoy/MM-OR), [Syn-Mediverse](https://syn-mediverse.cs.uni-freiburg.de/) or Endovis18.
 
 ### Training 
 Download the ImageNet pretrained model from: [link](https://github.com/mapillary/inplace_abn#training-on-imagenet-1k) and save in pretrained/
