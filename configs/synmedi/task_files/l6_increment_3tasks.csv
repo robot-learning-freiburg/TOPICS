@@ -1,0 +1,203 @@
+,class,gt_id,start,end
+0,root--void,{},1,217
+1,root--furn,{},1,217
+2,root--furn--bed,{},1,217
+3,root--furn--bed--cover,{},1,217
+4,root--furn--bed--stretcher,{},1,217
+5,root--furn--bed--surgery_bed,{},1,217
+6,root--medical_tools,{},1,217
+7,root--medical_tools--big_medical_tools,{},1,217
+8,root--medical_tools--big_medical_tools--anesthesia,{},1,217
+9,root--medical_tools--big_medical_tools--diagnostics,{},1,217
+10,root--medical_tools--big_medical_tools--monitoring,{},1,217
+11,root--medical_tools--big_medical_tools--t_other,{},1,217
+12,root--medical_tools--big_medical_tools--robotics,{},1,217
+13,root--medical_tools--big_medical_tools--support,{},1,217
+14,root--medical_tools--big_medical_tools--ventilation,{},1,217
+15,root--furn--chair,{},1,217
+16,root--furn--chair--normal,{},1,217
+17,root--furn--chair--surgical,{},1,217
+18,root--furn--chair--transport,{},1,217
+19,root--furn--curtain,{},1,217
+20,root--furn--curtain--medical_curtain,{},1,217
+21,root--furn--curtain--normal_curtain,{},1,217
+22,root--medical_tools--infant_care,{},1,217
+23,root--misc,{},1,217
+24,root--misc--documents,{},1,217
+25,root--misc--electric,{},1,217
+26,root--misc--electronics,{},1,217
+27,root--misc--interior,{},1,217
+28,root--misc--interior--furniture,{},2,217
+29,root--furn--bed--cover--bed_blanket,{168},1,217
+30,root--furn--bed--cover--surgical_cover,{31},1,217
+31,root--furn--bed--stretcher--emergency_stretcher,{151},1,217
+32,root--furn--bed--stretcher--stretcher_normal,"{213, 14}",1,217
+33,root--furn--bed--surgery_bed--hospital_bed,{124},1,217
+34,root--furn--bed--surgery_bed--medical_bed,{73},1,217
+35,root--furn--bed--surgery_bed--surgery_bed_normal,"{105, 29, 101}",1,217
+36,root--furn--bed--surgery_bed--x_ray_bed,{50},1,217
+37,root--medical_tools--big_medical_tools--anesthesia--anesthesia_machine,"{18, 212, 30, 60}",1,217
+38,root--medical_tools--big_medical_tools--anesthesia--medical_pandent,"{121, 42}",1,217
+39,root--medical_tools--big_medical_tools--diagnostics--ct_scan_machine,{49},1,217
+40,root--medical_tools--big_medical_tools--diagnostics--radiography_machine,{116},1,217
+41,root--medical_tools--big_medical_tools--diagnostics--x_ray_control_unit,{193},1,217
+42,root--medical_tools--big_medical_tools--diagnostics--x_ray_scan,{19},1,217
+43,root--medical_tools--big_medical_tools--monitoring--monitor,{40},1,217
+44,root--medical_tools--big_medical_tools--monitoring--x_ray_display_machine,"{38, 7}",1,217
+45,root--medical_tools--big_medical_tools--t_other--defibrilator,"{160, 16}",1,217
+46,root--medical_tools--big_medical_tools--t_other--medical_bag,{141},1,217
+47,root--medical_tools--big_medical_tools--t_other--medical_bag_door,{143},1,217
+48,root--medical_tools--big_medical_tools--t_other--medical_winch,{131},1,217
+49,root--medical_tools--big_medical_tools--t_other--operating_lamp,{22},1,217
+50,root--medical_tools--big_medical_tools--t_other--surgical_sink,{64},1,217
+51,root--medical_tools--big_medical_tools--robotics--airo_system,{117},1,217
+52,root--medical_tools--big_medical_tools--robotics--mako_robotic_arm,"{209, 205}",1,217
+53,root--medical_tools--big_medical_tools--support--hospital_wall_mount,{123},1,217
+54,root--medical_tools--big_medical_tools--support--medical_air_compressor,{103},1,217
+55,root--medical_tools--big_medical_tools--support--medical_lamp,{72},1,217
+56,root--medical_tools--big_medical_tools--ventilation--oxigen_cylinder,{149},1,217
+57,root--furn--chair--normal--medical_chair,{95},1,217
+58,root--furn--chair--normal--office_chair,{88},1,217
+59,root--furn--chair--normal--seating_chair,{34},1,217
+60,root--furn--chair--surgical--surgical_saddle_seat,{214},1,217
+61,root--furn--chair--surgical--surgical_seat,"{68, 15}",1,217
+62,root--furn--chair--transport--transport_chair,{137},1,217
+63,root--furn--chair--transport--wheelchair,{127},1,217
+64,root--furn--curtain--normal_curtain--normal_curtain_x,{17},1,217
+65,root--furn--curtain--medical_curtain--hospital_curtain,{130},1,217
+66,root--furn--curtain--normal_curtain--jalousie,{100},1,217
+67,root--furn--curtain--medical_curtain--medical_curtain_x,{46},1,217
+68,root--medical_tools--infant_care--infant_incubator,{189},1,217
+69,root--medical_tools--infant_care--infant_radiant_warmer,{198},1,217
+70,root--misc--documents--book,"{114, 91}",1,217
+71,root--misc--documents--clock,"{120, 165}",1,217
+72,root--misc--documents--desease_history,"{177, 153}",1,217
+73,root--misc--electric--cable_duct,{98},1,217
+74,root--misc--electric--electric_outlet,{104},1,217
+75,root--misc--electric--light_switch,{161},1,217
+76,root--misc--electronics--air_conditioner,{176},1,217
+77,root--misc--electronics--ceiling_air_conditioner,{185},1,217
+78,root--misc--electronics--ceiling_lamp,"{48, 85}",1,217
+79,root--misc--electronics--keyboard,{92},1,217
+80,root--misc--electronics--pc_case,{163},1,217
+81,root--misc--electronics--study_lamp,{119},1,217
+82,root--misc--interior--furniture--armchair,{125},1,217
+83,root--misc--other,{},2,217
+84,root--misc--safety,{},2,217
+85,root--misc--storage,{},2,217
+86,root--person,{},2,217
+87,root--person--medical_staff,{},2,217
+88,root--person--patient,{},2,217
+89,root--room,{},2,217
+90,root--room--openings,{},2,217
+91,root--room--structure,{},2,217
+92,root--store,{},1,217
+93,root--store--shelf_and_trolley,{},2,217
+94,root--store--shelf_and_trolley--trolley,{},2,217
+95,root--misc--interior--object,{},2,217
+96,root--misc--interior--in_structure,{},2,217
+97,root--misc--interior--wall_decor,{},2,217
+98,root--misc--interior--vessel,{},2,217
+99,root--misc--interior--personal_item,{},2,2017
+100,root--misc--interior--furniture--sofa,{128},2,217
+101,root--misc--interior--furniture--wash_basin,{110},2,217
+102,root--misc--interior--furniture--radiator,{150},2,217
+103,root--misc--interior--furniture--printer,{155},2,217
+104,root--misc--interior--in_structure--column,{186},2,217
+105,root--misc--interior--in_structure--doorjamb,{183},2,217
+106,root--misc--interior--in_structure--exit_sign,{37},2,217
+107,root--misc--interior--in_structure--interior,{27},2,217
+108,root--misc--interior--wall_decor--calendar,{178},2,217
+109,root--misc--interior--wall_decor--painting,{133},2,217
+110,root--misc--interior--wall_decor--poster,{84},2,217
+111,root--misc--interior--wall_decor--clipboard,{93},2,217
+112,root--misc--interior--plant,{122},2,217
+113,root--misc--interior--vessel--mug,{83},2,217
+114,root--misc--interior--vessel--orange_vase,{134},2,217
+115,root--misc--interior--personal_item--coat,{87},2,217
+116,root--misc--interior--personal_item--mouse_pad,"{152, 89, 96}",2,217
+117,root--misc--interior--trash_bin,"{82, 182}",2,217
+118,root--misc--interior--object--barrel,{180},2,217
+119,root--misc--interior--object--sphere,{66},2,217
+120,root--misc--interior--furniture--tv,{126},2,217
+121,root--misc--electronics--cable_spline,{200},2,217
+122,root--misc--electronics--skysphere,"{211, 12}",2,217
+123,root--misc--other--armstrong,{97},2,217
+124,root--misc--other--cover_other,{71},2,217
+125,root--misc--other--glass_partition,{113},2,217
+126,root--misc--other--onebay_doc_station,{175},2,217
+127,root--misc--other--ventilation_grill,"{170, 102}",2,217
+128,root--misc--safety--fire_extinguisher,{140},2,217
+129,root--misc--safety--fire_stand,{142},2,217
+130,root--misc--interior--hand_dryer,{172},2,217
+131,root--misc--interior--vessel--sanitizer_dispenser,{90},2,217
+132,root--misc--storage--first_aid_kit,"{158, 159}",2,217
+133,root--misc--interior--personal_item--pencil_case,{156},2,217
+134,root--misc--storage--storage_box,"{33, 201}",2,217
+135,root--misc--storage--suitcase,{204},2,217
+136,root--person--medical_staff--doctor,{35},2,217
+137,root--person--patient--actual_patient,{32},2,217
+138,root--room--openings--door,{36},2,217
+139,root--room--openings--window,{70},2,217
+140,root--room--structure--ceiling,{28},2,217
+141,root--room--structure--floor,{26},2,217
+142,root--room--structure--wall,{25},2,217
+143,root--store--shelf_and_trolley--trolley--cart_door,{135},2,217
+144,root--store--shelf_and_trolley--trolley--surgical_drawer,{45},2,217
+145,root--store--shelf_and_trolley--shelf,{},3,217
+146,root--store--shelf_and_trolley--station,{},3,217
+147,root--medical_tools--small_medical_tools,{},3,217
+148,root--medical_tools--small_medical_tools--containers_and_trays,{},3,217
+149,root--medical_tools--small_medical_tools--dental_tools,{},3,217
+150,root--medical_tools--small_medical_tools--diagnostic_tools,{},3,217
+151,root--medical_tools--small_medical_tools--grasping_and_holding,{},3,217
+152,root--medical_tools--small_medical_tools--protective_and_absorptive,{},3,217
+153,root--store--table_and_cabinet,{},3,217
+154,root--store--table_and_cabinet--cabinet,{},3,217
+155,root--store--table_and_cabinet--cabinet_door,{},3,217
+156,root--store--table_and_cabinet--table,{},3,217
+157,root--store--shelf_and_trolley--shelf--normal_shelf,{67},3,217
+158,root--store--shelf_and_trolley--shelf--simple_surgical_shelf,"{8, 106}",3,217
+159,root--store--shelf_and_trolley--shelf--stand_shelf,{147},3,217
+160,root--store--shelf_and_trolley--shelf--storage_shelf,{112},3,217
+161,root--store--shelf_and_trolley--shelf--surgical_shelf,"{11, 47}",3,217
+162,root--store--shelf_and_trolley--station--doc_station,{208},3,217
+163,root--store--shelf_and_trolley--trolley--hospital_cart,{136},3,217
+164,root--store--shelf_and_trolley--trolley--surgical_cart,{58},3,217
+165,root--store--shelf_and_trolley--trolley--surgical_trolley,"{23, 191}",3,217
+166,root--medical_tools--small_medical_tools--containers_and_trays--package,{69},3,217
+167,root--medical_tools--small_medical_tools--containers_and_trays--surgical_bowl,{108},3,217
+168,root--medical_tools--small_medical_tools--containers_and_trays--surgical_tray,"{44, 199}",3,217
+169,root--medical_tools--small_medical_tools--dental_tools--eye_stretcher,{215},3,217
+170,root--medical_tools--small_medical_tools--diagnostic_tools--lab_tripod,{109},3,217
+171,root--medical_tools--small_medical_tools--diagnostic_tools--sphygmomanometer,{144},3,217
+172,root--medical_tools--small_medical_tools--diagnostic_tools--stethoscope,{94},3,217
+173,root--medical_tools--small_medical_tools--diagnostic_tools--tablet,{166},3,217
+174,root--medical_tools--small_medical_tools--grasping_and_holding--clamp,"{0, 145, 5, 39}",3,217
+175,root--medical_tools--small_medical_tools--grasping_and_holding--cutting_tools,"{1, 3, 195, 197, 41, 10, 148}",3,217
+176,root--medical_tools--small_medical_tools--grasping_and_holding--tubular_delivery_device,"{207, 4, 79}",3,217
+177,root--medical_tools--small_medical_tools--medical_syrup,{76},3,217
+178,root--medical_tools--small_medical_tools--protective_and_absorptive--bandage,{74},3,217
+179,root--medical_tools--small_medical_tools--protective_and_absorptive--pad,{139},3,217
+180,root--medical_tools--small_medical_tools--protective_and_absorptive--surgical_paper,{146},3,217
+181,root--medical_tools--small_medical_tools--protective_and_absorptive--towel,{6},3,217
+182,root--medical_tools--big_medical_tools--support--camera_stand,{62},3,217
+183,root--medical_tools--big_medical_tools--support--monitor_pandent,"{24, 75, 190}",3,217
+184,root--medical_tools--small_medical_tools--diagnostic_tools--serum_stand,"{9, 63}",3,217
+185,root--medical_tools--big_medical_tools--support--x_ray_wall_stand,{192},3,217
+186,root--misc--interior--furniture--clothes_stand,{86},3,217
+187,root--medical_tools--small_medical_tools--diagnostic_tools--short_stand,"{13, 77}",3,217
+188,root--store--table_and_cabinet--cabinet--bedside_table,{210},3,217
+189,root--store--table_and_cabinet--cabinet--normal_cabinet,"{59, 164}",3,217
+190,root--store--table_and_cabinet--cabinet--nightstand,{167},3,217
+191,root--store--table_and_cabinet--cabinet_door--normal_cabinet_door,{99},3,217
+192,root--store--table_and_cabinet--cabinet_door--cabinet_wall_door,{107},3,217
+193,root--store--table_and_cabinet--cabinet_door--glass_cabinet_door,{157},3,217
+194,root--store--table_and_cabinet--cabinet_door--table_door,{162},3,217
+195,root--store--table_and_cabinet--cabinet--strerilizing_chamber,{65},3,217
+196,root--store--table_and_cabinet--cabinet--surgical_storage_cabinet,"{194, 20, 21}",3,217
+197,root--store--table_and_cabinet--table--leaf_table,{132},3,217
+198,root--store--table_and_cabinet--table--side_table,"{129, 202}",3,217
+199,root--store--table_and_cabinet--table--normal_table,{78},3,217
+200,root--store--table_and_cabinet--table--wide_table,{138},3,217
+201,root--ignore,"{154, 43, 171, 173, 174, 179, 51, 52, 181, 54, 56, 55, 57, 187, 188, 61, 53, 184, 196, 203, 206, 80, 81, 111, 115, 118, 255}",0,217

@@ -108,6 +108,23 @@ def modify_command_options(opts):
                 opts.curv_init = 2.0
             opts.hyp_hier = True
             opts.hiera = True
+        if opts.method == "TOPICS+":
+            if opts.pseudo is None:
+                opts.pseudo = "hiersigmoid_4"
+            if opts.triplet_loss_weight == 0.0:
+                opts.triplet_loss_weight = 10
+            opts.triplet_loss_top = 3
+            opts.trip_abs = True
+            opts.trip_sel = "infonce"
+            opts.all_sim = "dist0"
+            if opts.distance_sim_weight == 0.0:
+                opts.distance_sim_weight = 0.01
+            opts.poincare = True
+            if opts.curv_init == 1.0:
+                opts.curv_init = 3.0
+            opts.hyp_hier = True
+            opts.hiera = True
+            opts.dice = 0.7
     opts.no_overlap = not opts.overlap
 
     return opts

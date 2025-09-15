@@ -1,0 +1,2172 @@
+{
+    "UNLABELLED": {
+        "color": [
+            0,
+            0,
+            0
+        ],
+        "id": 255,
+        "trainId": 255,
+        "name": "void"
+    },
+    "forcep": {
+        "color": [
+            140,
+            255,
+            25
+        ],
+        "id": 0,
+        "trainId": 0,
+        "name": "forcep"
+    },
+    "surgical_knife": {
+        "color": [
+            140,
+            25,
+            255
+        ],
+        "id": 1,
+        "trainId": 1,
+        "name": "surgical_knife"
+    },
+    "picker": {
+        "color": [
+            255,
+            197,
+            25
+        ],
+        "id": 2,
+        "trainId": 2,
+        "name": "picker"
+    },
+    "surgical_drill": {
+        "color": [
+            25,
+            255,
+            82
+        ],
+        "id": 3,
+        "trainId": 3,
+        "name": "surgical_drill"
+    },
+    "spacer": {
+        "color": [
+            25,
+            82,
+            255
+        ],
+        "id": 4,
+        "trainId": 4,
+        "name": "spacer"
+    },
+    "clamp": {
+        "color": [
+            255,
+            25,
+            197
+        ],
+        "id": 5,
+        "trainId": 5,
+        "name": "clamp"
+    },
+    "towel": {
+        "color": [
+            255,
+            111,
+            25
+        ],
+        "id": 6,
+        "trainId": 6,
+        "name": "towel"
+    },
+    "x_ray_display_machine": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 7,
+        "trainId": 7,
+        "name": "x_ray_display_machine"
+    },
+    "simple_surgical_shelf,table": {
+        "color": [
+            54,
+            255,
+            25
+        ],
+        "id": 8,
+        "trainId": 8,
+        "name": "simple_surgical_shelf,table"
+    },
+    "serum_stand,table": {
+        "color": [
+            25,
+            255,
+            168
+        ],
+        "id": 9,
+        "trainId": 9,
+        "name": "serum_stand,table"
+    },
+    "surgical_saw": {
+        "color": [
+            25,
+            168,
+            255
+        ],
+        "id": 10,
+        "trainId": 10,
+        "name": "surgical_saw"
+    },
+    "surgical_shelf,table": {
+        "color": [
+            54,
+            25,
+            255
+        ],
+        "id": 11,
+        "trainId": 11,
+        "name": "surgical_shelf,table"
+    },
+    "skysphere,sphere": {
+        "color": [
+            226,
+            25,
+            255
+        ],
+        "id": 12,
+        "trainId": 12,
+        "name": "skysphere,sphere"
+    },
+    "short_stand,table": {
+        "color": [
+            255,
+            25,
+            111
+        ],
+        "id": 13,
+        "trainId": 13,
+        "name": "short_stand,table"
+    },
+    "stretcher": {
+        "color": [
+            255,
+            68,
+            25
+        ],
+        "id": 14,
+        "trainId": 14,
+        "name": "stretcher"
+    },
+    "surgical_seat": {
+        "color": [
+            255,
+            154,
+            25
+        ],
+        "id": 15,
+        "trainId": 15,
+        "name": "surgical_seat"
+    },
+    "defibrilator": {
+        "color": [
+            255,
+            240,
+            25
+        ],
+        "id": 16,
+        "trainId": 16,
+        "name": "defibrilator"
+    },
+    "curtain": {
+        "color": [
+            183,
+            255,
+            25
+        ],
+        "id": 17,
+        "trainId": 17,
+        "name": "curtain"
+    },
+    "anestesia,breathing_machine": {
+        "color": [
+            97,
+            255,
+            25
+        ],
+        "id": 18,
+        "trainId": 18,
+        "name": "anestesia,breathing_machine"
+    },
+    "x_ray_scan": {
+        "color": [
+            25,
+            255,
+            39
+        ],
+        "id": 19,
+        "trainId": 19,
+        "name": "x_ray_scan"
+    },
+    "clinic_shelf,surgical_storage_cabinet": {
+        "color": [
+            25,
+            255,
+            125
+        ],
+        "id": 20,
+        "trainId": 20,
+        "name": "clinic_shelf,surgical_storage_cabinet"
+    },
+    "surgical_storage_cabinet": {
+        "color": [
+            25,
+            255,
+            211
+        ],
+        "id": 21,
+        "trainId": 21,
+        "name": "surgical_storage_cabinet"
+    },
+    "operating_lamp": {
+        "color": [
+            25,
+            211,
+            255
+        ],
+        "id": 22,
+        "trainId": 22,
+        "name": "operating_lamp"
+    },
+    "surgical_trolley": {
+        "color": [
+            25,
+            125,
+            255
+        ],
+        "id": 23,
+        "trainId": 23,
+        "name": "surgical_trolley"
+    },
+    "monitor_pendant": {
+        "color": [
+            97,
+            25,
+            255
+        ],
+        "id": 24,
+        "trainId": 24,
+        "name": "monitor_pendant"
+    },
+    "wall": {
+        "color": [
+            183,
+            25,
+            255
+        ],
+        "id": 25,
+        "trainId": 25,
+        "name": "wall"
+    },
+    "floor": {
+        "color": [
+            255,
+            25,
+            240
+        ],
+        "id": 26,
+        "trainId": 26,
+        "name": "floor"
+    },
+    "interior": {
+        "color": [
+            255,
+            25,
+            154
+        ],
+        "id": 27,
+        "trainId": 27,
+        "name": "interior"
+    },
+    "ceiling": {
+        "color": [
+            255,
+            25,
+            68
+        ],
+        "id": 28,
+        "trainId": 28,
+        "name": "ceiling"
+    },
+    "surgical_bed": {
+        "color": [
+            255,
+            47,
+            25
+        ],
+        "id": 29,
+        "trainId": 29,
+        "name": "surgical_bed"
+    },
+    "breathing_machine": {
+        "color": [
+            255,
+            90,
+            25
+        ],
+        "id": 30,
+        "trainId": 30,
+        "name": "breathing_machine"
+    },
+    "surgical_cover": {
+        "color": [
+            255,
+            133,
+            25
+        ],
+        "id": 31,
+        "trainId": 31,
+        "name": "surgical_cover"
+    },
+    "patient": {
+        "color": [
+            255,
+            176,
+            25
+        ],
+        "id": 32,
+        "trainId": 32,
+        "name": "patient"
+    },
+    "box": {
+        "color": [
+            247,
+            255,
+            25
+        ],
+        "id": 33,
+        "trainId": 33,
+        "name": "box"
+    },
+    "seating_chair": {
+        "color": [
+            255,
+            25,
+            197
+        ],
+        "id": 34,
+        "trainId": 34,
+        "name": "seating_chair"
+    },
+    "doctor": {
+        "color": [
+            255,
+            197,
+            25
+        ],
+        "id": 35,
+        "trainId": 35,
+        "name": "doctor"
+    },
+    "door": {
+        "color": [
+            255,
+            133,
+            25
+        ],
+        "id": 36,
+        "trainId": 36,
+        "name": "door"
+    },
+    "exit_sign": {
+        "color": [
+            204,
+            255,
+            25
+        ],
+        "id": 37,
+        "trainId": 37,
+        "name": "exit_sign"
+    },
+    "x_ray_monitor": {
+        "color": [
+            25,
+            104,
+            255
+        ],
+        "id": 38,
+        "trainId": 38,
+        "name": "x_ray_monitor"
+    },
+    "tweezer": {
+        "color": [
+            204,
+            255,
+            25
+        ],
+        "id": 39,
+        "trainId": 39,
+        "name": "tweezer"
+    },
+    "monitor": {
+        "color": [
+            161,
+            255,
+            25
+        ],
+        "id": 40,
+        "trainId": 40,
+        "name": "monitor"
+    },
+    "scalpel": {
+        "color": [
+            118,
+            255,
+            25
+        ],
+        "id": 41,
+        "trainId": 41,
+        "name": "scalpel"
+    },
+    "medical_pendant": {
+        "color": [
+            32,
+            255,
+            25
+        ],
+        "id": 42,
+        "trainId": 42,
+        "name": "medical_pendant"
+    },
+    "object6": {
+        "color": [
+            255,
+            111,
+            25
+        ],
+        "id": 43,
+        "trainId": 43,
+        "name": "object6"
+    },
+    "surgical_tray": {
+        "color": [
+            25,
+            255,
+            104
+        ],
+        "id": 44,
+        "trainId": 44,
+        "name": "surgical_tray"
+    },
+    "surgical_drawer": {
+        "color": [
+            25,
+            255,
+            147
+        ],
+        "id": 45,
+        "trainId": 45,
+        "name": "surgical_drawer"
+    },
+    "medical_curtain": {
+        "color": [
+            118,
+            25,
+            255
+        ],
+        "id": 46,
+        "trainId": 46,
+        "name": "medical_curtain"
+    },
+    "surgical_shelf": {
+        "color": [
+            25,
+            255,
+            233
+        ],
+        "id": 47,
+        "trainId": 47,
+        "name": "surgical_shelf"
+    },
+    "ceiling_light": {
+        "color": [
+            140,
+            25,
+            255
+        ],
+        "id": 48,
+        "trainId": 48,
+        "name": "ceiling_light"
+    },
+    "ct_scan_machine": {
+        "color": [
+            25,
+            61,
+            255
+        ],
+        "id": 49,
+        "trainId": 49,
+        "name": "ct_scan_machine"
+    },
+    "x_ray_bed": {
+        "color": [
+            32,
+            25,
+            255
+        ],
+        "id": 50,
+        "trainId": 50,
+        "name": "x_ray_bed"
+    },
+    "object14": {
+        "color": [
+            75,
+            25,
+            255
+        ],
+        "id": 51,
+        "trainId": 51,
+        "name": "object14"
+    },
+    "object16": {
+        "color": [
+            25,
+            82,
+            255
+        ],
+        "id": 52,
+        "trainId": 52,
+        "name": "object16"
+    },
+    "object7": {
+        "color": [
+            255,
+            25,
+            197
+        ],
+        "id": 53,
+        "trainId": 53,
+        "name": "object7"
+    },
+    "object17": {
+        "color": [
+            255,
+            219,
+            25
+        ],
+        "id": 54,
+        "trainId": 54,
+        "name": "object17"
+    },
+    "object8": {
+        "color": [
+            247,
+            255,
+            25
+        ],
+        "id": 55,
+        "trainId": 55,
+        "name": "object8"
+    },
+    "object15": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 56,
+        "trainId": 56,
+        "name": "object15"
+    },
+    "object9": {
+        "color": [
+            54,
+            255,
+            25
+        ],
+        "id": 57,
+        "trainId": 57,
+        "name": "object9"
+    },
+    "surgical_cart": {
+        "color": [
+            25,
+            168,
+            255
+        ],
+        "id": 58,
+        "trainId": 58,
+        "name": "surgical_cart"
+    },
+    "cabinet": {
+        "color": [
+            226,
+            25,
+            255
+        ],
+        "id": 59,
+        "trainId": 59,
+        "name": "cabinet"
+    },
+    "anesthesia_breathing_system": {
+        "color": [
+            255,
+            154,
+            25
+        ],
+        "id": 60,
+        "trainId": 60,
+        "name": "anesthesia_breathing_system"
+    },
+    "object13": {
+        "color": [
+            25,
+            255,
+            39
+        ],
+        "id": 61,
+        "trainId": 61,
+        "name": "object13"
+    },
+    "camera_stand": {
+        "color": [
+            25,
+            211,
+            255
+        ],
+        "id": 62,
+        "trainId": 62,
+        "name": "camera_stand"
+    },
+    "serum_stand": {
+        "color": [
+            25,
+            125,
+            255
+        ],
+        "id": 63,
+        "trainId": 63,
+        "name": "serum_stand"
+    },
+    "surgical_sink": {
+        "color": [
+            255,
+            25,
+            47
+        ],
+        "id": 64,
+        "trainId": 64,
+        "name": "surgical_sink"
+    },
+    "strerilizing_chamber": {
+        "color": [
+            247,
+            25,
+            255
+        ],
+        "id": 65,
+        "trainId": 65,
+        "name": "strerilizing_chamber"
+    },
+    "sphere": {
+        "color": [
+            255,
+            25,
+            197
+        ],
+        "id": 66,
+        "trainId": 66,
+        "name": "sphere"
+    },
+    "shelf": {
+        "color": [
+            25,
+            168,
+            255
+        ],
+        "id": 67,
+        "trainId": 67,
+        "name": "shelf"
+    },
+    "surgery_seat": {
+        "color": [
+            226,
+            25,
+            255
+        ],
+        "id": 68,
+        "trainId": 68,
+        "name": "surgery_seat"
+    },
+    "package": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 69,
+        "trainId": 69,
+        "name": "package"
+    },
+    "window": {
+        "color": [
+            255,
+            240,
+            25
+        ],
+        "id": 70,
+        "trainId": 70,
+        "name": "window"
+    },
+    "cover": {
+        "color": [
+            25,
+            255,
+            39
+        ],
+        "id": 71,
+        "trainId": 71,
+        "name": "cover"
+    },
+    "medical_lamp": {
+        "color": [
+            25,
+            211,
+            255
+        ],
+        "id": 72,
+        "trainId": 72,
+        "name": "medical_lamp"
+    },
+    "medical_bed": {
+        "color": [
+            97,
+            25,
+            255
+        ],
+        "id": 73,
+        "trainId": 73,
+        "name": "medical_bed"
+    },
+    "bandage": {
+        "color": [
+            255,
+            68,
+            25
+        ],
+        "id": 74,
+        "trainId": 74,
+        "name": "bandage"
+    },
+    "monitor_stand": {
+        "color": [
+            255,
+            111,
+            25
+        ],
+        "id": 75,
+        "trainId": 75,
+        "name": "monitor_stand"
+    },
+    "medical_syrup": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 76,
+        "trainId": 76,
+        "name": "medical_syrup"
+    },
+    "short_stand": {
+        "color": [
+            54,
+            255,
+            25
+        ],
+        "id": 77,
+        "trainId": 77,
+        "name": "short_stand"
+    },
+    "table": {
+        "color": [
+            54,
+            25,
+            255
+        ],
+        "id": 78,
+        "trainId": 78,
+        "name": "table"
+    },
+    "syringe": {
+        "color": [
+            226,
+            25,
+            255
+        ],
+        "id": 79,
+        "trainId": 79,
+        "name": "syringe"
+    },
+    "tongue_depresso_package": {
+        "color": [
+            25,
+            255,
+            125
+        ],
+        "id": 80,
+        "trainId": 80,
+        "name": "tongue_depresso_package"
+    },
+    "tongue_depressor": {
+        "color": [
+            25,
+            255,
+            211
+        ],
+        "id": 81,
+        "trainId": 81,
+        "name": "tongue_depressor"
+    },
+    "trash_can": {
+        "color": [
+            25,
+            255,
+            104
+        ],
+        "id": 82,
+        "trainId": 82,
+        "name": "trash_can"
+    },
+    "mug": {
+        "color": [
+            25,
+            255,
+            147
+        ],
+        "id": 83,
+        "trainId": 83,
+        "name": "mug"
+    },
+    "poster": {
+        "color": [
+            255,
+            25,
+            154
+        ],
+        "id": 84,
+        "trainId": 84,
+        "name": "poster"
+    },
+    "ceiling_lamp": {
+        "color": [
+            255,
+            47,
+            25
+        ],
+        "id": 85,
+        "trainId": 85,
+        "name": "ceiling_lamp"
+    },
+    "clothes_stand": {
+        "color": [
+            255,
+            176,
+            25
+        ],
+        "id": 86,
+        "trainId": 86,
+        "name": "clothes_stand"
+    },
+    "coat": {
+        "color": [
+            247,
+            255,
+            25
+        ],
+        "id": 87,
+        "trainId": 87,
+        "name": "coat"
+    },
+    "office_chair": {
+        "color": [
+            183,
+            255,
+            25
+        ],
+        "id": 88,
+        "trainId": 88,
+        "name": "office_chair"
+    },
+    "mousepad": {
+        "color": [
+            183,
+            25,
+            255
+        ],
+        "id": 89,
+        "trainId": 89,
+        "name": "mousepad"
+    },
+    "sanitizer_dispenser": {
+        "color": [
+            255,
+            47,
+            25
+        ],
+        "id": 90,
+        "trainId": 90,
+        "name": "sanitizer_dispenser"
+    },
+    "book": {
+        "color": [
+            255,
+            176,
+            25
+        ],
+        "id": 91,
+        "trainId": 91,
+        "name": "book"
+    },
+    "keyboard": {
+        "color": [
+            97,
+            25,
+            255
+        ],
+        "id": 92,
+        "trainId": 92,
+        "name": "keyboard"
+    },
+    "clipboard": {
+        "color": [
+            183,
+            25,
+            255
+        ],
+        "id": 93,
+        "trainId": 93,
+        "name": "clipboard"
+    },
+    "stethoscope": {
+        "color": [
+            255,
+            25,
+            68
+        ],
+        "id": 94,
+        "trainId": 94,
+        "name": "stethoscope"
+    },
+    "medical_chair": {
+        "color": [
+            32,
+            255,
+            25
+        ],
+        "id": 95,
+        "trainId": 95,
+        "name": "medical_chair"
+    },
+    "mouse": {
+        "color": [
+            25,
+            39,
+            255
+        ],
+        "id": 96,
+        "trainId": 96,
+        "name": "mouse"
+    },
+    "armstrong": {
+        "color": [
+            140,
+            255,
+            25
+        ],
+        "id": 97,
+        "trainId": 97,
+        "name": "armstrong"
+    },
+    "cable_duct": {
+        "color": [
+            25,
+            255,
+            82
+        ],
+        "id": 98,
+        "trainId": 98,
+        "name": "cable_duct"
+    },
+    "cabinet_door": {
+        "color": [
+            255,
+            111,
+            25
+        ],
+        "id": 99,
+        "trainId": 99,
+        "name": "cabinet_door"
+    },
+    "jalousie": {
+        "color": [
+            54,
+            255,
+            25
+        ],
+        "id": 100,
+        "trainId": 100,
+        "name": "jalousie"
+    },
+    "surgery_bed": {
+        "color": [
+            25,
+            125,
+            255
+        ],
+        "id": 101,
+        "trainId": 101,
+        "name": "surgery_bed"
+    },
+    "ventilation_grill": {
+        "color": [
+            54,
+            25,
+            255
+        ],
+        "id": 102,
+        "trainId": 102,
+        "name": "ventilation_grill"
+    },
+    "medical_air_compressor": {
+        "color": [
+            255,
+            68,
+            25
+        ],
+        "id": 103,
+        "trainId": 103,
+        "name": "medical_air_compressor"
+    },
+    "electric_outlet": {
+        "color": [
+            226,
+            25,
+            255
+        ],
+        "id": 104,
+        "trainId": 104,
+        "name": "electric_outlet"
+    },
+    "surgery_bed_remote": {
+        "color": [
+            255,
+            133,
+            25
+        ],
+        "id": 105,
+        "trainId": 105,
+        "name": "surgery_bed_remote"
+    },
+    "simple_surgical_shelf": {
+        "color": [
+            255,
+            25,
+            111
+        ],
+        "id": 106,
+        "trainId": 106,
+        "name": "simple_surgical_shelf"
+    },
+    "cabinet_wall_door": {
+        "color": [
+            25,
+            168,
+            255
+        ],
+        "id": 107,
+        "trainId": 107,
+        "name": "cabinet_wall_door"
+    },
+    "surgical_bowl": {
+        "color": [
+            255,
+            90,
+            25
+        ],
+        "id": 108,
+        "trainId": 108,
+        "name": "surgical_bowl"
+    },
+    "lab_tripod": {
+        "color": [
+            255,
+            133,
+            25
+        ],
+        "id": 109,
+        "trainId": 109,
+        "name": "lab_tripod"
+    },
+    "wash_basin": {
+        "color": [
+            54,
+            255,
+            25
+        ],
+        "id": 110,
+        "trainId": 110,
+        "name": "wash_basin"
+    },
+    "object18": {
+        "color": [
+            255,
+            111,
+            25
+        ],
+        "id": 111,
+        "trainId": 111,
+        "name": "object18"
+    },
+    "storage_shelf": {
+        "color": [
+            32,
+            255,
+            25
+        ],
+        "id": 112,
+        "trainId": 112,
+        "name": "storage_shelf"
+    },
+    "glass_partition": {
+        "color": [
+            255,
+            219,
+            25
+        ],
+        "id": 113,
+        "trainId": 113,
+        "name": "glass_partition"
+    },
+    "notebook": {
+        "color": [
+            204,
+            255,
+            25
+        ],
+        "id": 114,
+        "trainId": 114,
+        "name": "notebook"
+    },
+    "pen": {
+        "color": [
+            25,
+            255,
+            190
+        ],
+        "id": 115,
+        "trainId": 115,
+        "name": "pen"
+    },
+    "radiography_machine": {
+        "color": [
+            25,
+            255,
+            61
+        ],
+        "id": 116,
+        "trainId": 116,
+        "name": "radiography_machine"
+    },
+    "airo_system": {
+        "color": [
+            25,
+            255,
+            190
+        ],
+        "id": 117,
+        "trainId": 117,
+        "name": "airo_system"
+    },
+    "object4": {
+        "color": [
+            25,
+            233,
+            255
+        ],
+        "id": 118,
+        "trainId": 118,
+        "name": "object4"
+    },
+    "study_lamp": {
+        "color": [
+            118,
+            25,
+            255
+        ],
+        "id": 119,
+        "trainId": 119,
+        "name": "study_lamp"
+    },
+    "clock_hand": {
+        "color": [
+            25,
+            233,
+            255
+        ],
+        "id": 120,
+        "trainId": 120,
+        "name": "clock_hand"
+    },
+    "medical_pandent": {
+        "color": [
+            140,
+            255,
+            25
+        ],
+        "id": 121,
+        "trainId": 121,
+        "name": "medical_pandent"
+    },
+    "plant": {
+        "color": [
+            140,
+            25,
+            255
+        ],
+        "id": 122,
+        "trainId": 122,
+        "name": "plant"
+    },
+    "hospital_wall_mount": {
+        "color": [
+            25,
+            255,
+            82
+        ],
+        "id": 123,
+        "trainId": 123,
+        "name": "hospital_wall_mount"
+    },
+    "hospital_bed": {
+        "color": [
+            25,
+            82,
+            255
+        ],
+        "id": 124,
+        "trainId": 124,
+        "name": "hospital_bed"
+    },
+    "armchair": {
+        "color": [
+            255,
+            25,
+            197
+        ],
+        "id": 125,
+        "trainId": 125,
+        "name": "armchair"
+    },
+    "tv": {
+        "color": [
+            255,
+            111,
+            25
+        ],
+        "id": 126,
+        "trainId": 126,
+        "name": "tv"
+    },
+    "wheelchair": {
+        "color": [
+            25,
+            255,
+            168
+        ],
+        "id": 127,
+        "trainId": 127,
+        "name": "wheelchair"
+    },
+    "sofa": {
+        "color": [
+            25,
+            168,
+            255
+        ],
+        "id": 128,
+        "trainId": 128,
+        "name": "sofa"
+    },
+    "side_table": {
+        "color": [
+            54,
+            25,
+            255
+        ],
+        "id": 129,
+        "trainId": 129,
+        "name": "side_table"
+    },
+    "hospital_curtain": {
+        "color": [
+            255,
+            25,
+            111
+        ],
+        "id": 130,
+        "trainId": 130,
+        "name": "hospital_curtain"
+    },
+    "medical_winch": {
+        "color": [
+            255,
+            68,
+            25
+        ],
+        "id": 131,
+        "trainId": 131,
+        "name": "medical_winch"
+    },
+    "leaf_table": {
+        "color": [
+            255,
+            154,
+            25
+        ],
+        "id": 132,
+        "trainId": 132,
+        "name": "leaf_table"
+    },
+    "painting": {
+        "color": [
+            255,
+            240,
+            25
+        ],
+        "id": 133,
+        "trainId": 133,
+        "name": "painting"
+    },
+    "orange_vase": {
+        "color": [
+            25,
+            255,
+            125
+        ],
+        "id": 134,
+        "trainId": 134,
+        "name": "orange_vase"
+    },
+    "cart_door": {
+        "color": [
+            75,
+            255,
+            25
+        ],
+        "id": 135,
+        "trainId": 135,
+        "name": "cart_door"
+    },
+    "hospital_cart": {
+        "color": [
+            255,
+            111,
+            25
+        ],
+        "id": 136,
+        "trainId": 136,
+        "name": "hospital_cart"
+    },
+    "transport_chair": {
+        "color": [
+            25,
+            255,
+            125
+        ],
+        "id": 137,
+        "trainId": 137,
+        "name": "transport_chair"
+    },
+    "wide_table": {
+        "color": [
+            255,
+            25,
+            197
+        ],
+        "id": 138,
+        "trainId": 138,
+        "name": "wide_table"
+    },
+    "pad": {
+        "color": [
+            140,
+            25,
+            255
+        ],
+        "id": 139,
+        "trainId": 139,
+        "name": "pad"
+    },
+    "fire_extinguisher": {
+        "color": [
+            255,
+            219,
+            25
+        ],
+        "id": 140,
+        "trainId": 140,
+        "name": "fire_extinguisher"
+    },
+    "medical_bag": {
+        "color": [
+            25,
+            255,
+            211
+        ],
+        "id": 141,
+        "trainId": 141,
+        "name": "medical_bag"
+    },
+    "fire_stand": {
+        "color": [
+            161,
+            255,
+            25
+        ],
+        "id": 142,
+        "trainId": 142,
+        "name": "fire_stand"
+    },
+    "medical_bag_door": {
+        "color": [
+            25,
+            211,
+            255
+        ],
+        "id": 143,
+        "trainId": 143,
+        "name": "medical_bag_door"
+    },
+    "sphygmomanometer": {
+        "color": [
+            25,
+            255,
+            104
+        ],
+        "id": 144,
+        "trainId": 144,
+        "name": "sphygmomanometer"
+    },
+    "retractor": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 145,
+        "trainId": 145,
+        "name": "retractor"
+    },
+    "surgical_paper": {
+        "color": [
+            255,
+            111,
+            25
+        ],
+        "id": 146,
+        "trainId": 146,
+        "name": "surgical_paper"
+    },
+    "stand_shelf": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 147,
+        "trainId": 147,
+        "name": "stand_shelf"
+    },
+    "periotome": {
+        "color": [
+            54,
+            25,
+            255
+        ],
+        "id": 148,
+        "trainId": 148,
+        "name": "periotome"
+    },
+    "oxigen_cylinder": {
+        "color": [
+            183,
+            255,
+            25
+        ],
+        "id": 149,
+        "trainId": 149,
+        "name": "oxigen_cylinder"
+    },
+    "radiator": {
+        "color": [
+            25,
+            255,
+            125
+        ],
+        "id": 150,
+        "trainId": 150,
+        "name": "radiator"
+    },
+    "emergency_stretcher": {
+        "color": [
+            25,
+            255,
+            211
+        ],
+        "id": 151,
+        "trainId": 151,
+        "name": "emergency_stretcher"
+    },
+    "mouse_and_pad": {
+        "color": [
+            255,
+            68,
+            25
+        ],
+        "id": 152,
+        "trainId": 152,
+        "name": "mouse_and_pad"
+    },
+    "disease_history": {
+        "color": [
+            255,
+            240,
+            25
+        ],
+        "id": 153,
+        "trainId": 153,
+        "name": "disease_history"
+    },
+    "stapler": {
+        "color": [
+            183,
+            255,
+            25
+        ],
+        "id": 154,
+        "trainId": 154,
+        "name": "stapler"
+    },
+    "printer": {
+        "color": [
+            25,
+            255,
+            39
+        ],
+        "id": 155,
+        "trainId": 155,
+        "name": "printer"
+    },
+    "pencil_case": {
+        "color": [
+            25,
+            255,
+            211
+        ],
+        "id": 156,
+        "trainId": 156,
+        "name": "pencil_case"
+    },
+    "glass_cabinet_door": {
+        "color": [
+            25,
+            39,
+            255
+        ],
+        "id": 157,
+        "trainId": 157,
+        "name": "glass_cabinet_door"
+    },
+    "first_aid_kit": {
+        "color": [
+            255,
+            111,
+            25
+        ],
+        "id": 158,
+        "trainId": 158,
+        "name": "first_aid_kit"
+    },
+    "first_aid_kit_door": {
+        "color": [
+            255,
+            25,
+            197
+        ],
+        "id": 159,
+        "trainId": 159,
+        "name": "first_aid_kit_door"
+    },
+    "defibrillator": {
+        "color": [
+            97,
+            25,
+            255
+        ],
+        "id": 160,
+        "trainId": 160,
+        "name": "defibrillator"
+    },
+    "light_switch": {
+        "color": [
+            75,
+            255,
+            25
+        ],
+        "id": 161,
+        "trainId": 161,
+        "name": "light_switch"
+    },
+    "table_door": {
+        "color": [
+            32,
+            255,
+            25
+        ],
+        "id": 162,
+        "trainId": 162,
+        "name": "table_door"
+    },
+    "pc_case": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 163,
+        "trainId": 163,
+        "name": "pc_case"
+    },
+    "cacabinet": {
+        "color": [
+            25,
+            255,
+            104
+        ],
+        "id": 164,
+        "trainId": 164,
+        "name": "cacabinet"
+    },
+    "clock": {
+        "color": [
+            25,
+            255,
+            147
+        ],
+        "id": 165,
+        "trainId": 165,
+        "name": "clock"
+    },
+    "tablet": {
+        "color": [
+            25,
+            255,
+            233
+        ],
+        "id": 166,
+        "trainId": 166,
+        "name": "tablet"
+    },
+    "nightstand": {
+        "color": [
+            25,
+            255,
+            39
+        ],
+        "id": 167,
+        "trainId": 167,
+        "name": "nightstand"
+    },
+    "bed_blanket": {
+        "color": [
+            25,
+            168,
+            255
+        ],
+        "id": 168,
+        "trainId": 168,
+        "name": "bed_blanket"
+    },
+    "dental_chair": {
+        "color": [
+            25,
+            39,
+            255
+        ],
+        "id": 169,
+        "trainId": 169,
+        "name": "dental_chair"
+    },
+    "entilation_grill": {
+        "color": [
+            255,
+            240,
+            25
+        ],
+        "id": 170,
+        "trainId": 170,
+        "name": "entilation_grill"
+    },
+    "object12": {
+        "color": [
+            118,
+            25,
+            255
+        ],
+        "id": 171,
+        "trainId": 171,
+        "name": "object12"
+    },
+    "hand_dryer": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 172,
+        "trainId": 172,
+        "name": "hand_dryer"
+    },
+    "object3": {
+        "color": [
+            255,
+            197,
+            25
+        ],
+        "id": 173,
+        "trainId": 173,
+        "name": "object3"
+    },
+    "object11": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 174,
+        "trainId": 174,
+        "name": "object11"
+    },
+    "onebay_doc_station": {
+        "color": [
+            255,
+            197,
+            25
+        ],
+        "id": 175,
+        "trainId": 175,
+        "name": "onebay_doc_station"
+    },
+    "air_conditioner": {
+        "color": [
+            255,
+            25,
+            197
+        ],
+        "id": 176,
+        "trainId": 176,
+        "name": "air_conditioner"
+    },
+    "desease_history": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 177,
+        "trainId": 177,
+        "name": "desease_history"
+    },
+    "calendar": {
+        "color": [
+            25,
+            39,
+            255
+        ],
+        "id": 178,
+        "trainId": 178,
+        "name": "calendar"
+    },
+    "lab_tube_stand": {
+        "color": [
+            25,
+            255,
+            211
+        ],
+        "id": 179,
+        "trainId": 179,
+        "name": "lab_tube_stand"
+    },
+    "barrel": {
+        "color": [
+            255,
+            47,
+            25
+        ],
+        "id": 180,
+        "trainId": 180,
+        "name": "barrel"
+    },
+    "object10": {
+        "color": [
+            255,
+            25,
+            176
+        ],
+        "id": 181,
+        "trainId": 181,
+        "name": "object10"
+    },
+    "trash_bin": {
+        "color": [
+            25,
+            255,
+            104
+        ],
+        "id": 182,
+        "trainId": 182,
+        "name": "trash_bin"
+    },
+    "doorjamb": {
+        "color": [
+            255,
+            47,
+            25
+        ],
+        "id": 183,
+        "trainId": 183,
+        "name": "doorjamb"
+    },
+    "object5": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 184,
+        "trainId": 184,
+        "name": "object5"
+    },
+    "ceiling_air_conditioner": {
+        "color": [
+            25,
+            255,
+            168
+        ],
+        "id": 185,
+        "trainId": 185,
+        "name": "ceiling_air_conditioner"
+    },
+    "column": {
+        "color": [
+            255,
+            25,
+            240
+        ],
+        "id": 186,
+        "trainId": 186,
+        "name": "column"
+    },
+    "object19": {
+        "color": [
+            25,
+            255,
+            61
+        ],
+        "id": 187,
+        "trainId": 187,
+        "name": "object19"
+    },
+    "object20": {
+        "color": [
+            25,
+            255,
+            147
+        ],
+        "id": 188,
+        "trainId": 188,
+        "name": "object20"
+    },
+    "infant_incubator": {
+        "color": [
+            226,
+            255,
+            25
+        ],
+        "id": 189,
+        "trainId": 189,
+        "name": "infant_incubator"
+    },
+    "monitor_pandent": {
+        "color": [
+            54,
+            25,
+            255
+        ],
+        "id": 190,
+        "trainId": 190,
+        "name": "monitor_pandent"
+    },
+    "medical_trolley": {
+        "color": [
+            183,
+            255,
+            25
+        ],
+        "id": 191,
+        "trainId": 191,
+        "name": "medical_trolley"
+    },
+    "x_ray_wall_stand": {
+        "color": [
+            255,
+            25,
+            197
+        ],
+        "id": 192,
+        "trainId": 192,
+        "name": "x_ray_wall_stand"
+    },
+    "x_ray_control_unit": {
+        "color": [
+            25,
+            255,
+            39
+        ],
+        "id": 193,
+        "trainId": 193,
+        "name": "x_ray_control_unit"
+    },
+    "surgical_storage_cabinet_door": {
+        "color": [
+            97,
+            25,
+            255
+        ],
+        "id": 194,
+        "trainId": 194,
+        "name": "surgical_storage_cabinet_door"
+    },
+    "hock_shovel": {
+        "color": [
+            54,
+            25,
+            255
+        ],
+        "id": 195,
+        "trainId": 195,
+        "name": "hock_shovel"
+    },
+    "hammer": {
+        "color": [
+            255,
+            154,
+            25
+        ],
+        "id": 196,
+        "trainId": 196,
+        "name": "hammer"
+    },
+    "serrated_cutter": {
+        "color": [
+            25,
+            211,
+            255
+        ],
+        "id": 197,
+        "trainId": 197,
+        "name": "serrated_cutter"
+    },
+    "infant_radiant_warmer": {
+        "color": [
+            25,
+            255,
+            39
+        ],
+        "id": 198,
+        "trainId": 198,
+        "name": "infant_radiant_warmer"
+    },
+    "sterile_container": {
+        "color": [
+            25,
+            255,
+            39
+        ],
+        "id": 199,
+        "trainId": 199,
+        "name": "sterile_container"
+    },
+    "cable_spline": {
+        "color": [
+            140,
+            25,
+            255
+        ],
+        "id": 200,
+        "trainId": 200,
+        "name": "cable_spline"
+    },
+    "storage_box": {
+        "color": [
+            25,
+            125,
+            255
+        ],
+        "id": 201,
+        "trainId": 201,
+        "name": "storage_box"
+    },
+    "console_table": {
+        "color": [
+            255,
+            79,
+            25
+        ],
+        "id": 202,
+        "trainId": 202,
+        "name": "console_table"
+    },
+    "object2": {
+        "color": [
+            255,
+            25,
+            176
+        ],
+        "id": 203,
+        "trainId": 203,
+        "name": "object2"
+    },
+    "suitcase": {
+        "color": [
+            255,
+            143,
+            25
+        ],
+        "id": 204,
+        "trainId": 204,
+        "name": "suitcase"
+    },
+    "mako_robotic_arm": {
+        "color": [
+            161,
+            255,
+            25
+        ],
+        "id": 205,
+        "trainId": 205,
+        "name": "mako_robotic_arm"
+    },
+    "object1": {
+        "color": [
+            255,
+            25,
+            68
+        ],
+        "id": 206,
+        "trainId": 206,
+        "name": "object1"
+    },
+    "endotracheal_tube": {
+        "color": [
+            255,
+            25,
+            68
+        ],
+        "id": 207,
+        "trainId": 207,
+        "name": "endotracheal_tube"
+    },
+    "doc_station": {
+        "color": [
+            140,
+            25,
+            255
+        ],
+        "id": 208,
+        "trainId": 208,
+        "name": "doc_station"
+    },
+    "portable_c_arm": {
+        "color": [
+            255,
+            197,
+            25
+        ],
+        "id": 209,
+        "trainId": 209,
+        "name": "portable_c_arm"
+    },
+    "bedside_table": {
+        "color": [
+            54,
+            255,
+            25
+        ],
+        "id": 210,
+        "trainId": 210,
+        "name": "bedside_table"
+    },
+    "skysphere": {
+        "color": [
+            255,
+            154,
+            25
+        ],
+        "id": 211,
+        "trainId": 211,
+        "name": "skysphere"
+    },
+    "anesthesia_machine": {
+        "color": [
+            140,
+            255,
+            25
+        ],
+        "id": 212,
+        "trainId": 212,
+        "name": "anesthesia_machine"
+    },
+    "stretcher_fluoroscopy": {
+        "color": [
+            54,
+            255,
+            25
+        ],
+        "id": 213,
+        "trainId": 213,
+        "name": "stretcher_fluoroscopy"
+    },
+    "surgical_saddle_seat": {
+        "color": [
+            54,
+            25,
+            255
+        ],
+        "id": 214,
+        "trainId": 214,
+        "name": "surgical_saddle_seat"
+    },
+    "eye_stretcher": {
+        "color": [
+            25,
+            255,
+            39
+        ],
+        "id": 215,
+        "trainId": 215,
+        "name": "eye_stretcher"
+    }
+}

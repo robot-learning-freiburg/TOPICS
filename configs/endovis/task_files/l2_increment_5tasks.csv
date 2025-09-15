@@ -1,0 +1,14 @@
+,class,gt_id,start,end
+0,void,{},1,20
+1,instrument-shaft,{1},1,20
+2,background-tissue,{0},1,20
+3,suturing-needle,{8},1,20
+4,clamps,{7},1,20
+5,instrument-clasper,{2},1,20
+6,ultrasound-probe,{11},1,20
+7,thread,{6},1,20
+8,suction-instrument,{9},1,20
+9,covered-kidney,{5},2,20
+10,kidney-parenchyma,{4},3,20
+11,instrument-wrist,{3},4,20
+12,small-intestine,{10},5,20

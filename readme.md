@@ -33,7 +33,8 @@ When creating new CISS settings, first create a new .csv file in [configs](./con
 ## License
 This code is released under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) for academic usage. For commercial usage, please contact [Julia Hindel](https://rl.uni-freiburg.de/people/hindel). If you report results based on the dataset or code, please consider citing the paper. 
 
-```@article{hindel25topics,
+```
+@article{hindel25topics,
 			title={Taxonomy-Aware Continual Semantic Segmentation in Hyperbolic Spaces for Open-World Perception},
 			author={Hindel, Julia and Cattaneo, Daniele and Valada, Abhinav},
 			journal={IEEE Automation and Robotics Letters (RA-L)},
@@ -42,6 +43,16 @@ This code is released under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.
 			pages={1904-1911},
 			year={2025}
 		  }
+
+@misc{hindel2025topics+,
+      title={Dynamic Robot-Assisted Surgery with Hierarchical Class-Incremental Semantic Segmentation}, 
+      author={Julia Hindel and Ema Mekic and Enamundram Naga Karthik and Rohit Mohan and Daniele Cattaneo and Maria Kalweit and Abhinav Valada},
+      year={2025},
+      eprint={2508.01713},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.01713}, 
+}
 ```
 
 
